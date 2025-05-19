@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     private int facingDir = 1;
     private bool isGrounded;
     [Header("Dash info")]
+    [SerializeField] private float dashSpeed;
     [SerializeField] private float dashDuration;
     [SerializeField] private float dashTime;
     [Header("Collision info")]
@@ -42,6 +43,19 @@ public class Player : MonoBehaviour
         isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, whatIsGround);
     }
 
+    private void Xmovement()
+    {
+        xInput = Input.GetAxisRaw("Horizontal");
+        if (dashTime > 0)
+        {
+            rb.linearVelocityX = xInput * dashSpeed;
+        }
+        else
+        {
+            rb.linearVelocity = new Vector2(xInput * movespeed, rb.linearVelocityY);
+        }
+    }
+
     private void Ymovement()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -50,12 +64,6 @@ public class Player : MonoBehaviour
                 rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpforce);
             Debug.Log("Jump");
         }
-    }
-
-    private void Xmovement()
-    {
-        xInput = Input.GetAxisRaw("Horizontal");
-        rb.linearVelocity = new Vector2(xInput * movespeed, rb.linearVelocityY);
     }
 
     private void AnimatorController()
