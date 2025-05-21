@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
         Ymovement();
         CollisionCheck();
         dashTime-= Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && dashTime <=2)
         {
             dashTime = dashDuration;
             Debug.Log("I'm doing dash");
