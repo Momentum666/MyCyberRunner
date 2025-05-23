@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float jumpforce;
     [SerializeField] private float movespeed;
+    [SerializeField] private int jumpAbility;
+    [SerializeField] private int jumpCount;
     private bool facingRight = true;
     private int facingDir = 1;
     private bool isGrounded;
@@ -29,7 +31,7 @@ public class Player : MonoBehaviour
         Ymovement();
         CollisionCheck();
         dashTime-= Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.LeftShift) && dashTime <=2)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && dashTime <=0 && !isGrounded)
         {
             dashTime = dashDuration;
             Debug.Log("I'm doing dash");
@@ -61,8 +63,18 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (isGrounded)
+            {
+                jumpCount = jumpAbility;
                 rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpforce);
-            Debug.Log("Jump");
+                jumpCount--;
+                Debug.Log("Jump");
+            }
+            else if(!isGrounded && jumpCount > 0)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpforce);
+                jumpCount--;
+                Debug.Log("Double Jump");
+            }
         }
     }
 
