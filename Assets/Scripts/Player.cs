@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashDuration;
     [SerializeField] private float dashTime;
+    [SerializeField] private int dashAbility;
+    [SerializeField] private int dashCount;
     [Header("Collision info")]
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask whatIsGround;
@@ -31,10 +33,11 @@ public class Player : MonoBehaviour
         Ymovement();
         CollisionCheck();
         dashTime-= Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.LeftShift) && dashTime <=0 && !isGrounded)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && dashCount>0 && !isGrounded)
         {
             dashTime = dashDuration;
             Debug.Log("I'm doing dash");
+            dashCount -= 1;
         }
         DirController();
         AnimatorController();
@@ -48,6 +51,8 @@ public class Player : MonoBehaviour
     private void Xmovement()
     {
         xInput = Input.GetAxisRaw("Horizontal");
+        if (isGrounded)
+            dashCount = dashAbility;
         if (dashTime > 0)
         {
             rb.linearVelocityX = xInput * dashSpeed;
