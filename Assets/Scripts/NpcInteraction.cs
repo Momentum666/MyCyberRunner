@@ -1,7 +1,9 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class NpcInteraction : MonoBehaviour
 {
+    public DialogueData dialogueData;
     public GameObject interactionPrompt;
     private bool isPlayerInRange = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created

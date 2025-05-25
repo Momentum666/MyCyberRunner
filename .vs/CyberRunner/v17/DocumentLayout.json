@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\17701\\CyberRunner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|c:\\users\\17701\\cyberrunner\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|c:\\users\\17701\\cyberrunner\\assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\Npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\dialogueline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogueline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,16 +42,76 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Npc.cs",
+              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\Npc.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Npc.cs",
+              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\Npc.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Npc.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:39:37.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DialogueManager.cs",
+              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\DialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueManager.cs",
+              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\DialogueManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:23:18.907Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NpcInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\NpcInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NpcInteraction.cs",
+              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\NpcInteraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NpcInteraction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:01:42.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IInteractable.cs",
+              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\IInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IInteractable.cs",
+              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\IInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IInteractable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:17:23.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DialogueLine.cs",
+              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\DialogueLine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueLine.cs",
+              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\DialogueLine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:38:54.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAiwCcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T05:35:48.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T05:35:48.688Z"
             }
           ]
         }
