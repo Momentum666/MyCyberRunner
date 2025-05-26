@@ -44,6 +44,9 @@ TagManager:
   - name: Background
     uniqueID: 2208771967
     locked: 0
+  - name: ColliderTest
+    uniqueID: 1063676999
+    locked: 0
   - name: Ground
     uniqueID: 3041223311
     locked: 0

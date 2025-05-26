@@ -1,7 +1,10 @@
 using UnityEngine;
+using DialogueEditor;
 
 public class Player : MonoBehaviour
 {
+
+    [SerializeField] private NPCConversation BeginningDialogue;
     private Rigidbody2D rb;
     private Animator anim;
     private float xInput;
@@ -22,10 +25,12 @@ public class Player : MonoBehaviour
     [Header("Collision info")]
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask whatIsGround;
+
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
         anim=GetComponentInChildren<Animator>();
+        ConversationManager.Instance.StartConversation(BeginningDialogue);
     }
     void Update()
     {
