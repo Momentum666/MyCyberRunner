@@ -1,3 +1,4 @@
+using DialogueEditor;
 using UnityEngine;
 
 public class InteractionPrompt : MonoBehaviour
@@ -9,6 +10,13 @@ public class InteractionPrompt : MonoBehaviour
     {
         if (interactionPrompt != null)
             interactionPrompt.SetActive(false);
+    }
+    private void Update()
+    {
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.E))
+        {
+
+        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     private Animator anim;
     private float xInput;
     [Header("Movement")]
+    [SerializeField] private bool inputlocked;
     [SerializeField] private float jumpforce;
     [SerializeField] private float movespeed;
     [SerializeField] private int jumpAbility;
@@ -34,6 +35,11 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+        if (ConversationManager.Instance.IsConversationActive)
+        {
+            rb.linearVelocity = new Vector2(0, 0);
+            return;
+        }
         Xmovement();
         Ymovement();
         CollisionCheck();

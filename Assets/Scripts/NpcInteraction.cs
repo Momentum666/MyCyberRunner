@@ -7,15 +7,13 @@ public class NpcInteraction : MonoBehaviour
     [SerializeField] private NPCConversation FirstTalkWithMiner;
     [SerializeField] private NPCConversation SecondTalkWithMiner;
     [SerializeField] private bool hasPlayed = false;
-    public GameObject interactionPrompt;
+    public GameObject InteractionPrompt;
     private bool isPlayerInRange = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (interactionPrompt != null)
-        {
-            interactionPrompt.SetActive(false);
-        }
+        if (InteractionPrompt != null)
+            InteractionPrompt.SetActive(false);
     }
 
     // Update is called once per frame
@@ -33,7 +31,7 @@ public class NpcInteraction : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            interactionPrompt.SetActive(true);
+            InteractionPrompt.SetActive(true);
             isPlayerInRange = true;
         }
     }
@@ -42,7 +40,7 @@ public class NpcInteraction : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            interactionPrompt.SetActive(false);
+            InteractionPrompt.SetActive(false);
             isPlayerInRange = false;
         }
     }
