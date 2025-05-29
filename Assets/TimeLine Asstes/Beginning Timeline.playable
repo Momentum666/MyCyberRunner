@@ -527,7 +527,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 4.6
-        value: 35
+        value: 40
         inSlope: 45.7143
         outSlope: 0
         tangentMode: 1
@@ -623,7 +623,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 4.6
-        value: 35
+        value: 40
         inSlope: 45.7143
         outSlope: 0
         tangentMode: 1
@@ -654,7 +654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: GLRecover
   m_EditorClassIdentifier: 
-  m_Time: 4.6
+  m_Time: 4.58
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: f6a8cfacf52f07a46b6451550a8e35ae, type: 2}

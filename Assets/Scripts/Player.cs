@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
-        anim=GetComponentInChildren<Animator>();
+        anim=GetComponent<Animator>();
         ConversationManager.Instance.StartConversation(BeginningDialogue);
     }
     void Update()
