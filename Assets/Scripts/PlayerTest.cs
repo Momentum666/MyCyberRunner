@@ -1,9 +1,9 @@
-using UnityEngine;
 using DialogueEditor;
+using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PlayerTest : MonoBehaviour
 {
-    [SerializeField] private NPCConversation BeginningDialogue;
+
     private Rigidbody2D rb;
     private Animator anim;
     private float xInput;
@@ -31,7 +31,6 @@ public class Player : MonoBehaviour
     {
         rb=GetComponent<Rigidbody2D>();
         anim=GetComponent<Animator>();
-        ConversationManager.Instance.StartConversation(BeginningDialogue);
     }
     void Update()
     {
@@ -79,11 +78,14 @@ public class Player : MonoBehaviour
 
     private void Ymovement()
     {
+        bool isJumping = rb.linearVelocityY > 0;
         if (Input.GetKeyDown(KeyCode.Space)&&jumpCount>0)
         {
                 rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpforce);
                 jumpCount--;
         }
+        if (Input.GetKeyUp(KeyCode.Space)&&isJumping)
+            rb.linearVelocity= new Vector2(rb.linearVelocityX, rb.linearVelocityY*0.3f);
     }
 
     private void AnimatorController()

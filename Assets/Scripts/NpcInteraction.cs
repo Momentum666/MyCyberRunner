@@ -4,6 +4,8 @@ using DialogueEditor;
 
 public class NpcInteraction : MonoBehaviour
 {
+    public Player player;
+    public Animator anim;
     [SerializeField] private NPCConversation FirstTalkWithMiner;
     [SerializeField] private NPCConversation SecondTalkWithMiner;
     [SerializeField] private bool hasPlayed = false;
@@ -12,6 +14,7 @@ public class NpcInteraction : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        anim = player.GetComponentInChildren<Animator>();
         if (InteractionPrompt != null)
             InteractionPrompt.SetActive(false);
     }
@@ -19,12 +22,13 @@ public class NpcInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isPlayerInRange && !hasPlayed)
+        if (isPlayerInRange && !hasPlayed&& player.isGrounded)
         {
+            anim.SetBool("isMoving", false);
             ConversationManager.Instance.StartConversation(FirstTalkWithMiner);
             hasPlayed = true;
         }
-        if (isPlayerInRange && Input.GetKeyDown(KeyCode.E))
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.E)&&player.isGrounded)
             ConversationManager.Instance.StartConversation(SecondTalkWithMiner);
     }
     private void OnTriggerEnter2D(Collider2D other)

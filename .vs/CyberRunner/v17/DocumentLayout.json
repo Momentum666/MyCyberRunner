@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\17701\\CyberRunner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\interactionprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactionprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|c:\\users\\17701\\cyberrunner\\assets\\scripts\\showleg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\showleg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|c:\\users\\17701\\cyberrunner\\assets\\scripts\\tutorialjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\17701\\cyberrunner\\assets\\scripts\\tutorialprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\tutorialprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwvykAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T05:35:48.688Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TutorialJump.cs",
-              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\TutorialJump.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialJump.cs",
-              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\TutorialJump.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TutorialJump.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Title": "ShowLeg.cs",
+              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\ShowLeg.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShowLeg.cs",
+              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\ShowLeg.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShowLeg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:40:55.489Z",
+              "WhenOpened": "2025-06-01T22:20:03.587Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TutorialPrompt.cs",
-              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\TutorialPrompt.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialPrompt.cs",
-              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\TutorialPrompt.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TutorialPrompt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:41:18.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InteractionPrompt.cs",
-              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\InteractionPrompt.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractionPrompt.cs",
-              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\InteractionPrompt.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractionPrompt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T04:58:33.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "NpcInteraction.cs",
               "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\NpcInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NpcInteraction.cs",
               "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\NpcInteraction.cs",
               "RelativeToolTip": "Assets\\Scripts\\NpcInteraction.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCYAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T16:01:42.591Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerTest.cs",
+              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\PlayerTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerTest.cs",
+              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\PlayerTest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerTest.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvyUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:29:55.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerRespawn.cs",
+              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\PlayerRespawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerRespawn.cs",
+              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\PlayerRespawn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerRespawn.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T23:06:23.309Z",
               "EditorCaption": ""
             }
           ]
