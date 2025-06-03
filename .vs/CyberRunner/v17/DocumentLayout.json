@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\17701\\CyberRunner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|c:\\users\\17701\\cyberrunner\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|c:\\users\\17701\\cyberrunner\\assets\\scripts\\showleg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\showleg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|c:\\users\\17701\\cyberrunner\\assets\\scripts\\getdoublejump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\getdoublejump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\17701\\CyberRunner\\assets\\scripts\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,33 +30,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAgwHEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T05:35:48.688Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShowLeg.cs",
-              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\ShowLeg.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ShowLeg.cs",
-              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\ShowLeg.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ShowLeg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T22:20:03.587Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -68,7 +54,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\NpcInteraction.cs",
               "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\NpcInteraction.cs",
               "RelativeToolTip": "Assets\\Scripts\\NpcInteraction.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvw4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T16:01:42.591Z",
               "IsPinned": true,
@@ -76,26 +62,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "GetDoubleJump.cs",
+              "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\GetDoubleJump.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GetDoubleJump.cs",
+              "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\GetDoubleJump.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GetDoubleJump.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T02:29:47.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "PlayerTest.cs",
               "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\PlayerTest.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerTest.cs",
               "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\PlayerTest.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerTest.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvyUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwCUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T02:29:55.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PlayerRespawn.cs",
               "DocumentMoniker": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\PlayerRespawn.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerRespawn.cs",
               "ToolTip": "C:\\Users\\17701\\CyberRunner\\Assets\\Scripts\\PlayerRespawn.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerRespawn.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T23:06:23.309Z",
               "EditorCaption": ""

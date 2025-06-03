@@ -8,10 +8,9 @@ public class PlayerTest : MonoBehaviour
     private Animator anim;
     private float xInput;
     [Header("Movement")]
-    [SerializeField] private bool inputlocked;
     [SerializeField] private float jumpforce;
     [SerializeField] private float movespeed;
-    [SerializeField] private int jumpAbility;
+    public int jumpAbility;
     [SerializeField] private int jumpCount;
     private bool facingRight = true;
     private int facingDir = 1;
@@ -21,7 +20,7 @@ public class PlayerTest : MonoBehaviour
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashDuration;
     [SerializeField] private float dashTime;
-    [SerializeField] private int dashAbility;
+    public int dashAbility;
     [SerializeField] private int dashCount;
     [Header("Collision info")]
     [SerializeField] private float groundCheckDistance;
@@ -85,7 +84,7 @@ public class PlayerTest : MonoBehaviour
                 jumpCount--;
         }
         if (Input.GetKeyUp(KeyCode.Space)&&isJumping)
-            rb.linearVelocity= new Vector2(rb.linearVelocityX, rb.linearVelocityY*0.3f);
+            rb.linearVelocity= new Vector2(rb.linearVelocityX, rb.linearVelocityY*0.4f);
     }
 
     private void AnimatorController()

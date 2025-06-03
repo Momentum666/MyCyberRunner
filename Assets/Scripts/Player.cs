@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private bool inputlocked;
     [SerializeField] private float jumpforce;
     [SerializeField] private float movespeed;
-    [SerializeField] private int jumpAbility;
+    public int jumpAbility;
     [SerializeField] private int jumpCount;
     private bool facingRight = true;
     private int facingDir = 1;
@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashDuration;
     [SerializeField] private float dashTime;
-    [SerializeField] private int dashAbility;
+    public int dashAbility;
     [SerializeField] private int dashCount;
     [Header("Collision info")]
     [SerializeField] private float groundCheckDistance;
@@ -76,14 +76,16 @@ public class Player : MonoBehaviour
             rb.linearVelocity = new Vector2(xInput * movespeed, rb.linearVelocityY);
         }
     }
-
     private void Ymovement()
     {
-        if (Input.GetKeyDown(KeyCode.Space)&&jumpCount>0)
+        bool isJumping = rb.linearVelocityY > 0;
+        if (Input.GetKeyDown(KeyCode.Space) && jumpCount > 0)
         {
-                rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpforce);
-                jumpCount--;
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpforce);
+            jumpCount--;
         }
+        if (Input.GetKeyUp(KeyCode.Space) && isJumping)
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, rb.linearVelocityY * 0.4f);
     }
 
     private void AnimatorController()
