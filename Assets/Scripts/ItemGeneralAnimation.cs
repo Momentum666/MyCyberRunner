@@ -1,17 +1,12 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using DialogueEditor;
 
-public class GetDoubleJump : MonoBehaviour
+public class ItemGeneral : MonoBehaviour
 {
-    public Player pr;
-    private bool isPlayerInRange;
     private Animator anim;
-    [SerializeField] private NPCConversation GetLeg;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private bool isPlayerInRange;
     void Start()
     {
-        anim=GetComponent<Animator>();
+        anim= GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -20,11 +15,8 @@ public class GetDoubleJump : MonoBehaviour
         if (isPlayerInRange)
         {
             anim.SetBool("ifGot", true);
-            pr.jumpAbility = 2;
-            ConversationManager.Instance.StartConversation(GetLeg);
         }
     }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))

@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 781306766342938650}
   - component: {fileID: 8511719013953731661}
   - component: {fileID: 3087077832249495454}
+  - component: {fileID: -5526940699563954638}
+  - component: {fileID: 3067182198466612839}
   m_Layer: 0
   m_Name: SpecialItem
   m_TagString: Untagged
@@ -102,7 +104,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 2a8267e16f0720f43837beba24973dac, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -147,3 +149,27 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.0030786514}
   m_Radius: 0.3491358
+--- !u!114 &-5526940699563954638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7162842261685625045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc3a029900a74dd6aa75e03fb21bae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3067182198466612839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7162842261685625045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6615f8674f1c491db9e2b440ec1f9b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
