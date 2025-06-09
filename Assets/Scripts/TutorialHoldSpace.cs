@@ -1,18 +1,18 @@
 using UnityEngine;
 
-public class TutorialJump : MonoBehaviour
+public class TutorialHoldSpace : MonoBehaviour
 {
-    public GameObject promptJump;
+    public GameObject promptHoldSpace;
     void Start()
     {
-        promptJump.SetActive(false);
+        promptHoldSpace.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            promptJump.SetActive(true);
+            promptHoldSpace.SetActive(true);
         }
     }
 

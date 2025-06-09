@@ -8,34 +8,42 @@ public class Player : MonoBehaviour
     private Animator anim;
     private float xInput;
     [Header("Movement")]
-    [SerializeField] private bool inputlocked;
+    private float currentSpeed;
+    private float deltaSpeed;
+    [SerializeField] private float accelityFrame;
     [SerializeField] private float jumpforce;
     [SerializeField] private float movespeed;
     public int jumpAbility;
     [SerializeField] private int jumpCount;
     private bool facingRight = true;
     private int facingDir = 1;
-    public bool isGrounded;
-    private bool wasGrounded;
     [Header("Dash info")]
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashDuration;
     [SerializeField] private float dashTime;
     public int dashAbility;
     [SerializeField] private int dashCount;
+    private MovingPlatform currentPlatform;
     [Header("Collision info")]
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask whatIsGround;
+    public bool isGrounded;
+    private bool wasGrounded;
+    [SerializeField] private LayerMask whatIsPlatform;
+    private int groundLayer;
+    public bool canMove = true;
 
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
         anim=GetComponent<Animator>();
+        deltaSpeed = movespeed / accelityFrame;
+        groundLayer = whatIsGround | whatIsPlatform;
         ConversationManager.Instance.StartConversation(BeginningDialogue);
     }
     void Update()
     {
-        if (ConversationManager.Instance.IsConversationActive)
+        if (ConversationManager.Instance.IsConversationActive||!canMove)
         {
             rb.linearVelocity = new Vector2(0, 0);
             return;
@@ -57,14 +65,22 @@ public class Player : MonoBehaviour
     private void CollisionCheck()
     {
         wasGrounded = isGrounded;
-        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, whatIsGround);
-        if (!wasGrounded && isGrounded)
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, groundLayer);
+        isGrounded = hit.collider != null;
+        if (isGrounded && !wasGrounded)
             jumpCount = jumpAbility;
+        if (hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer("MovingPlatform"))
+            currentPlatform = hit.collider.GetComponent<MovingPlatform>();
+        else
+            currentPlatform = null;
     }
 
     private void Xmovement()
     {
+        float totalXSpeed = currentSpeed;
         xInput = Input.GetAxisRaw("Horizontal");
+        float maxSpeed = xInput * movespeed;
+        currentSpeed = Mathf.MoveTowards(currentSpeed, maxSpeed, deltaSpeed);
         if (isGrounded)
             dashCount = dashAbility;
         if (dashTime > 0)
@@ -73,7 +89,9 @@ public class Player : MonoBehaviour
         }
         else
         {
-            rb.linearVelocity = new Vector2(xInput * movespeed, rb.linearVelocityY);
+            if (currentPlatform != null)
+                totalXSpeed += currentPlatform.passingVelocity.x;
+            rb.linearVelocity = new Vector2(totalXSpeed, rb.linearVelocityY);
         }
     }
     private void Ymovement()
@@ -105,14 +123,24 @@ public class Player : MonoBehaviour
 
     private void DirController()
     {
-        if (rb.linearVelocityX > 0 && !facingRight)
+        if (rb.linearVelocityX > 0 && !facingRight && currentPlatform == null)
             Flip();
-        else if (rb.linearVelocityX < 0 && facingRight)
+        else if (rb.linearVelocityX < 0 && facingRight&& currentPlatform == null)
             Flip();
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.DrawLine(transform.position, new Vector3(transform.position.x, transform.position.y - groundCheckDistance));
+    }
+
+    public void FreezePlayer()
+    {
+        canMove = false;
+    }
+
+    public void UnfreezePlayer()
+    {
+        canMove = true;
     }
 }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f782d98ab93413a4a8ff7c506bb7bc93
+guid: 3a251e48ab3a5044283afb4413c72236
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2141124636363787668
-    second: tutorialE_0
+      213: 7881897142865947388
+    second: promptHoldSpace_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tutorialE_0
+      name: promptHoldSpace_0
       rect:
         serializedVersion: 2
-        x: 47
-        y: 632
-        width: 914
-        height: 280
+        x: 0
+        y: 0
+        width: 1024
+        height: 1536
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c62f2b5cc723942e0800000000000000
-      internalID: -2141124636363787668
+      spriteID: cfae0bcf0bf126d60800000000000000
+      internalID: 7881897142865947388
       vertices: []
       indices: 
       edges: []
@@ -151,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c60c6be0399d7a94888045ac0cbd2cac
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tutorialE_0: -2141124636363787668
+      promptHoldSpace_0: 7881897142865947388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

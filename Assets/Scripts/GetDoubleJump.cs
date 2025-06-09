@@ -5,6 +5,7 @@ using DialogueEditor;
 public class GetDoubleJump : MonoBehaviour
 {
     public Player pr;
+    public GameObject Leg;
     private bool isPlayerInRange;
     private Animator anim;
     [SerializeField] private NPCConversation GetLeg;
@@ -22,7 +23,13 @@ public class GetDoubleJump : MonoBehaviour
             anim.SetBool("ifGot", true);
             pr.jumpAbility = 2;
             ConversationManager.Instance.StartConversation(GetLeg);
+            ConversationManager.OnConversationEnded += OnDialogueEnded;
         }
+    }
+    void OnDialogueEnded()
+    {
+        ConversationManager.OnConversationEnded -= OnDialogueEnded;
+        Leg.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
