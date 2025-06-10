@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: d82688f082cdb4ad7b0f7aa1f6e7c4d4
+guid: a91b5afeb791d664480bf6420b3c332d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1642911348458702085
-    second: TutorialB-End_0
+      213: 3667392473702440528
+    second: AcidAnimation-Sprite_0
+  - first:
+      213: -5686568317550936000
+    second: AcidAnimation-Sprite_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,7 +100,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,23 +116,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TutorialB-End_0
+      name: AcidAnimation-Sprite_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 256
-        height: 256
+        y: 255
+        width: 257
+        height: 242
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 505c65aba2bccc610800000000000000
-      internalID: 1642911348458702085
+      spriteID: 05e99fe260235e230800000000000000
+      internalID: 3667392473702440528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidAnimation-Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 257
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040c2617e304511b0800000000000000
+      internalID: -5686568317550936000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidAnimation-Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 255
+        width: 255
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062396776f380d145bf0868863b31313
+      internalID: 823244313
       vertices: []
       indices: 
       edges: []
@@ -138,7 +185,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b79a68ee1154a8b46b709a08ce00d249
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +194,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AcidAnimation-Sprite_2: 823244313
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
