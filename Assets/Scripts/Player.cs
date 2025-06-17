@@ -10,20 +10,21 @@ public class Player : MonoBehaviour
     [Header("Movement")]
     private float currentSpeed;
     private float deltaSpeed;
-    [SerializeField] private float accelityFrame;
+    [SerializeField] private float accelityFrame=8f;
     [SerializeField] private float jumpforce;
     [SerializeField] private float movespeed;
+    [SerializeField] private float fallMaxSpeed;
     public int jumpAbility;
-    [SerializeField] private int jumpCount;
+    public int jumpCount;
     private bool facingRight = true;
     private int facingDir = 1;
     [Header("Dash info")]
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashDuration;
-    [SerializeField] private float dashTime;
+    private float dashTime=-1f;
     public int dashAbility;
-    [SerializeField] private int dashCount;
-    private MovingPlatform currentPlatform;
+    public int dashCount;
+    public MovingPlatform currentPlatform;
     [Header("Collision info")]
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask whatIsGround;
@@ -43,16 +44,16 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        if (ConversationManager.Instance.IsConversationActive||!canMove)
+        if (ConversationManager.Instance.IsConversationActive || !canMove)
         {
-            rb.linearVelocity = new Vector2(0, 0);
+            rb.linearVelocityX = 0;
             return;
         }
         Xmovement();
         Ymovement();
         CollisionCheck();
-        dashTime-= Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.LeftShift) && dashCount>0 && !isGrounded)
+        dashTime -= Time.deltaTime;
+        if (Input.GetKeyDown(KeyCode.LeftShift) && dashCount > 0 && !isGrounded)
         {
             dashTime = dashDuration;
             Debug.Log("I'm doing dash");
@@ -60,6 +61,10 @@ public class Player : MonoBehaviour
         }
         DirController();
         AnimatorController();
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     private void CollisionCheck()
@@ -85,7 +90,7 @@ public class Player : MonoBehaviour
             dashCount = dashAbility;
         if (dashTime > 0)
         {
-            rb.linearVelocityX = xInput * dashSpeed;
+            rb.linearVelocity = new Vector2(facingDir * dashSpeed,0);
         }
         else
         {
@@ -96,14 +101,23 @@ public class Player : MonoBehaviour
     }
     private void Ymovement()
     {
-        bool isJumping = rb.linearVelocityY > 0;
-        if (Input.GetKeyDown(KeyCode.Space) && jumpCount > 0)
+        if (Input.GetKeyDown(KeyCode.Space) && jumpCount > 0 && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpforce);
             jumpCount--;
         }
-        if (Input.GetKeyUp(KeyCode.Space) && isJumping)
-            rb.linearVelocity = new Vector2(rb.linearVelocityX, rb.linearVelocityY * 0.4f);
+        else if (Input.GetKeyDown(KeyCode.Space) && jumpCount > 0 && !isGrounded && rb.linearVelocityY >= 0)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, rb.linearVelocityY + jumpforce * 0.85f);
+            jumpCount--;
+        }
+        else if (Input.GetKeyDown(KeyCode.Space) && jumpCount > 0 && !isGrounded && rb.linearVelocityY < 0)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpforce);
+            jumpCount--;
+        }
+        if (rb.linearVelocityY < -fallMaxSpeed)
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, -fallMaxSpeed);
     }
 
     private void AnimatorController()
@@ -112,6 +126,7 @@ public class Player : MonoBehaviour
         anim.SetFloat("yVelocity",rb.linearVelocityY);
         anim.SetBool("isMoving", isMoving);
         anim.SetBool("isGrounded",isGrounded);
+        anim.SetBool("isDashing", dashTime > 0);
     }
 
     private void Flip()

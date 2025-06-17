@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\tutorialjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\cameratrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameratrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|c:\\users\\joseph\\unity project\\cyberrunner\\assets\\scripts\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\savepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\disableafteranim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\disableafteranim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\PlayerRespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\PlayerRespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\getdoublejump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\getdoublejump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\getdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\getdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|c:\\users\\joseph\\unity project\\cyberrunner\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\end.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\end.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\jumpplus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jumpplus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\dashplus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dashplus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|C:\\Users\\Joseph\\Unity Project\\CyberRunner\\assets\\scripts\\showleg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B5FA7E-026F-38C4-1960-38FC0620719D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\showleg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,34 +66,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NpcInteraction.cs",
-              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\NpcInteraction.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NpcInteraction.cs",
-              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\NpcInteraction.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NpcInteraction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAQAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:01:42.591Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-06-17T01:51:39.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TutorialJump.cs",
-              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\TutorialJump.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialJump.cs",
-              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\TutorialJump.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TutorialJump.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "END.cs",
+              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\END.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\END.cs",
+              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\END.cs",
+              "RelativeToolTip": "Assets\\Scripts\\END.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T03:09:04.192Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-06-16T00:11:54.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerRespawn.cs",
+              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\PlayerRespawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerRespawn.cs",
+              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\PlayerRespawn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerRespawn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T23:53:50.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetDash.cs",
+              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\GetDash.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GetDash.cs",
+              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\GetDash.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GetDash.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T23:44:45.111Z",
               "EditorCaption": ""
             },
             {
@@ -76,61 +127,124 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovingPlatform.cs",
               "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\MovingPlatform.cs",
               "RelativeToolTip": "Assets\\Scripts\\MovingPlatform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T00:25:41.278Z",
+              "WhenOpened": "2025-06-15T23:35:48.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CameraTrigger.cs",
               "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\CameraTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraTrigger.cs",
               "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\CameraTrigger.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T05:04:12.697Z",
+              "WhenOpened": "2025-06-15T23:29:50.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "GetDoubleJump.cs",
+              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\GetDoubleJump.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GetDoubleJump.cs",
+              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\GetDoubleJump.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GetDoubleJump.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T23:29:33.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAmwFYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwEAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T23:28:42.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerTest.cs",
               "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\PlayerTest.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerTest.cs",
               "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\PlayerTest.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerTest.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAADwvy0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T02:29:55.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerRespawn.cs",
-              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\PlayerRespawn.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerRespawn.cs",
-              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\PlayerRespawn.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerRespawn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SavePoint.cs",
+              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\SavePoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SavePoint.cs",
+              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\SavePoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SavePoint.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA1wBgAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T23:06:23.309Z"
+              "WhenOpened": "2025-06-14T05:09:46.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DisableAfterAnim.cs",
+              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\DisableAfterAnim.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DisableAfterAnim.cs",
+              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\DisableAfterAnim.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DisableAfterAnim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T22:01:41.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JumpPlus.cs",
+              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\JumpPlus.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\JumpPlus.cs",
+              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\JumpPlus.cs",
+              "RelativeToolTip": "Assets\\Scripts\\JumpPlus.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:33:48.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DashPlus.cs",
+              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\DashPlus.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DashPlus.cs",
+              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\DashPlus.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DashPlus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T06:26:56.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShowLeg.cs",
+              "DocumentMoniker": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\ShowLeg.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShowLeg.cs",
+              "ToolTip": "C:\\Users\\Joseph\\Unity Project\\CyberRunner\\Assets\\Scripts\\ShowLeg.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShowLeg.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:52:37.172Z"
             }
           ]
         }

@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: a438d5eb325c3c24c9a8acdb41db049b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4127959414667516297
+    second: exchangeAbility_0
+  - first:
+      213: -9032636629173664259
+    second: exchangeAbility_1
+  - first:
+      213: 4862639169083143312
+    second: exchangeAbility_2
+  - first:
+      213: -5327562190811319254
+    second: exchangeAbility_3
+  - first:
+      213: 5085100242234892816
+    second: exchangeAbility_4
+  - first:
+      213: 6587566301168993268
+    second: exchangeAbility_5
+  - first:
+      213: -1007568409753019355
+    second: exchangeAbility_6
+  - first:
+      213: 2920391133836370487
+    second: exchangeAbility_7
+  - first:
+      213: -6648456366770832992
+    second: exchangeAbility_8
+  - first:
+      213: 7693497439068111335
+    second: exchangeAbility_9
+  - first:
+      213: 8803268105387415307
+    second: exchangeAbility_10
+  - first:
+      213: 2831881554451539740
+    second: exchangeAbility_11
+  - first:
+      213: -2550659842020376383
+    second: exchangeAbility_12
+  - first:
+      213: 1000692982281887730
+    second: exchangeAbility_13
+  - first:
+      213: -5993263295848435617
+    second: exchangeAbility_14
+  - first:
+      213: -7821143075523394567
+    second: exchangeAbility_15
+  - first:
+      213: -8075170542832506243
+    second: exchangeAbility_16
+  - first:
+      213: 6989378970802003921
+    second: exchangeAbility_17
+  - first:
+      213: -7133778048784150179
+    second: exchangeAbility_18
+  - first:
+      213: -1507980768184226048
+    second: exchangeAbility_19
+  - first:
+      213: 7826140629242013893
+    second: exchangeAbility_20
+  - first:
+      213: 545458894600653847
+    second: exchangeAbility_21
+  - first:
+      213: -6600797198576566250
+    second: exchangeAbility_22
+  - first:
+      213: 1704687887437511013
+    second: exchangeAbility_23
+  - first:
+      213: 6446879884924224433
+    second: exchangeAbility_24
+  - first:
+      213: 2087438217574260608
+    second: exchangeAbility_25
+  - first:
+      213: -931148426918653624
+    second: exchangeAbility_26
+  - first:
+      213: 8925607704727878255
+    second: exchangeAbility_27
+  - first:
+      213: 6859300647008224318
+    second: exchangeAbility_28
+  - first:
+      213: -4164240015946288284
+    second: exchangeAbility_29
+  - first:
+      213: 4059328551114550622
+    second: exchangeAbility_30
+  - first:
+      213: -4768562833330269021
+    second: exchangeAbility_31
+  - first:
+      213: 323531684954211899
+    second: exchangeAbility_32
+  - first:
+      213: -5581853906531545436
+    second: exchangeAbility_33
+  - first:
+      213: -2441567196539493061
+    second: exchangeAbility_34
+  - first:
+      213: 1945715759169625607
+    second: exchangeAbility_35
+  - first:
+      213: 1435907634562136989
+    second: exchangeAbility_36
+  - first:
+      213: -1173886594567261486
+    second: exchangeAbility_37
+  - first:
+      213: -3124788378066055953
+    second: exchangeAbility_38
+  - first:
+      213: -5794434651044370051
+    second: exchangeAbility_39
+  - first:
+      213: -165184275395549853
+    second: exchangeAbility_40
+  - first:
+      213: 101023088298162033
+    second: exchangeAbility_41
+  - first:
+      213: -3296188329860457303
+    second: exchangeAbility_42
+  - first:
+      213: 4282453056248893424
+    second: exchangeAbility_43
+  - first:
+      213: 6871655845556076145
+    second: exchangeAbility_44
+  - first:
+      213: -4517880459263717312
+    second: exchangeAbility_45
+  - first:
+      213: 3926891063067680319
+    second: exchangeAbility_46
+  - first:
+      213: -2353846443415733335
+    second: exchangeAbility_47
+  - first:
+      213: 7155692121538369416
+    second: exchangeAbility_48
+  - first:
+      213: 3810164082418694416
+    second: exchangeAbility_49
+  - first:
+      213: 3424295696094094459
+    second: exchangeAbility_50
+  - first:
+      213: -5583775341104620473
+    second: exchangeAbility_51
+  - first:
+      213: -8255347344625909646
+    second: exchangeAbility_52
+  - first:
+      213: 8869780664500659857
+    second: exchangeAbility_53
+  - first:
+      213: -8405192489346328577
+    second: exchangeAbility_54
+  - first:
+      213: 3248332158222198227
+    second: exchangeAbility_55
+  - first:
+      213: -666810846995879441
+    second: exchangeAbility_56
+  - first:
+      213: -2449978693827220347
+    second: exchangeAbility_57
+  - first:
+      213: -7661394610829740740
+    second: exchangeAbility_58
+  - first:
+      213: 2417502695851945298
+    second: exchangeAbility_59
+  - first:
+      213: 6873299422055645874
+    second: exchangeAbility_60
+  - first:
+      213: 6037325830261357399
+    second: exchangeAbility_61
+  - first:
+      213: 3423330297706229065
+    second: exchangeAbility_62
+  - first:
+      213: -2509836715916059693
+    second: exchangeAbility_63
+  - first:
+      213: -2305516512396517005
+    second: exchangeAbility_64
+  - first:
+      213: -7910922395009432981
+    second: exchangeAbility_65
+  - first:
+      213: -2699461665248003501
+    second: exchangeAbility_66
+  - first:
+      213: 2834553913877500945
+    second: exchangeAbility_67
+  - first:
+      213: 5772377944466768860
+    second: exchangeAbility_68
+  - first:
+      213: -8719486348824895505
+    second: exchangeAbility_69
+  - first:
+      213: -3434699602592718424
+    second: exchangeAbility_70
+  - first:
+      213: -8347422485198238375
+    second: exchangeAbility_71
+  - first:
+      213: -6022255068396403869
+    second: exchangeAbility_72
+  - first:
+      213: 7835297127187059287
+    second: exchangeAbility_73
+  - first:
+      213: 2265263508232100357
+    second: exchangeAbility_74
+  - first:
+      213: 6629471425022873384
+    second: exchangeAbility_75
+  - first:
+      213: 4508625042222878429
+    second: exchangeAbility_76
+  - first:
+      213: -6022670356613887056
+    second: exchangeAbility_77
+  - first:
+      213: 3664111331717052630
+    second: exchangeAbility_78
+  - first:
+      213: -5735145838808474957
+    second: exchangeAbility_79
+  - first:
+      213: -6844494546308466666
+    second: exchangeAbility_80
+  - first:
+      213: -3643261321225539041
+    second: exchangeAbility_81
+  - first:
+      213: -4326526471852636055
+    second: exchangeAbility_82
+  - first:
+      213: 3877727132892121260
+    second: exchangeAbility_83
+  - first:
+      213: 3381742718376691839
+    second: exchangeAbility_84
+  - first:
+      213: -7330064255653619895
+    second: exchangeAbility_85
+  - first:
+      213: 6621496730664262046
+    second: exchangeAbility_86
+  - first:
+      213: -7358556469888430931
+    second: exchangeAbility_87
+  - first:
+      213: -3272474497139924161
+    second: exchangeAbility_88
+  - first:
+      213: -253305198518924787
+    second: exchangeAbility_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: exchangeAbility_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1229
+        width: 244
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa15607755e7834884d6f690f4918ae
+      internalID: 1860068949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exchangeAbility_1
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1229
+        width: 245
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3c37f9c7ed9244ca728170c6b1037d
+      internalID: -522969077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exchangeAbility_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 939
+        width: 246
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919606c95bdd0b14e9855636415d7880
+      internalID: -2016838846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exchangeAbility_3
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 936
+        width: 248
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bc62de46b8c724a840073448b52bc2
+      internalID: -178134519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exchangeAbility_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 647
+        width: 242
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f9d1f78c66aaa42977e0047010da6d
+      internalID: -1954083438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exchangeAbility_5
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 651
+        width: 247
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057178ba5122c7042a607ebab2716d94
+      internalID: 1554192556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exchangeAbility_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 377
+        width: 225
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f550b9cdc39646046bb6ec46e0ee58e5
+      internalID: -638201057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exchangeAbility_7
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 383
+        width: 226
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb59fe804145194419b366fb57b7693b
+      internalID: -1184011478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exchangeAbility_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 109
+        width: 225
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca673e0fa6c4e24badc691614ea398c
+      internalID: -115431311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exchangeAbility_9
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 109
+        width: 205
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172a89faf0bbe8a458ead21c2c72abc4
+      internalID: 205241217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exchangeAbility_10
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 420
+        width: 169
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd1098e7a32cf64b91ccfc189d72aca
+      internalID: -1249842765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 62ac6a0992f4a7f41b8a1dc162d812b4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":5.0},"gridSpriteSize":{"x":512.0,"y":307.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      exchangeAbility_0: 1860068949
+      exchangeAbility_1: -522969077
+      exchangeAbility_10: -1249842765
+      exchangeAbility_2: -2016838846
+      exchangeAbility_3: -178134519
+      exchangeAbility_4: -1954083438
+      exchangeAbility_5: 1554192556
+      exchangeAbility_6: -638201057
+      exchangeAbility_7: -1184011478
+      exchangeAbility_8: -115431311
+      exchangeAbility_9: 205241217
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

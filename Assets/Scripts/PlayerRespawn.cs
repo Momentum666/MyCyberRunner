@@ -8,6 +8,7 @@ public class PlayerRespawn : MonoBehaviour
     [Header("Respawn Animation")]
     [SerializeField] private Animation DeadAnimation;
     [SerializeField] private bool isDead = false;
+    public bool hasRespawned = false;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -16,7 +17,7 @@ public class PlayerRespawn : MonoBehaviour
     {
         if (other.CompareTag("DeadArea"))
         {
-            
+            hasRespawned = true;
             transform.position = respawnPoint;
         }
     }

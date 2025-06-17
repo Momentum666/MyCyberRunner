@@ -5,31 +5,30 @@ using DialogueEditor;
 public class GetDoubleJump : MonoBehaviour
 {
     public Player pr;
-    public GameObject Leg;
+    public GameObject Gear1;
     private bool isPlayerInRange;
     private Animator anim;
-    [SerializeField] private NPCConversation GetLeg;
+    [SerializeField] private NPCConversation GetGear1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         anim=GetComponent<Animator>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (isPlayerInRange)
         {
             anim.SetBool("ifGot", true);
             pr.jumpAbility = 2;
-            ConversationManager.Instance.StartConversation(GetLeg);
+            pr.jumpCount = 2;
+            ConversationManager.Instance.StartConversation(GetGear1);
             ConversationManager.OnConversationEnded += OnDialogueEnded;
         }
     }
     void OnDialogueEnded()
     {
         ConversationManager.OnConversationEnded -= OnDialogueEnded;
-        Leg.SetActive(false);
+        Gear1.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class CameraTrigger : MonoBehaviour
 {
+    public CinemachineCamera fromCamera;
     public CinemachineCamera targetCamera;
-    public float transitionDuration = 1.5f;
+    public float transitionDuration;
 
     private bool triggered = false;
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (triggered) return;
+
 
         if (other.CompareTag("Player"))
         {
@@ -23,8 +24,11 @@ public class CameraTrigger : MonoBehaviour
     IEnumerator SwitchCamera()
     {
         targetCamera.Priority = 50;
+        fromCamera.Priority = 40;
         Time.timeScale = 0f;
         yield return new WaitForSecondsRealtime(transitionDuration);
         Time.timeScale = 1f;
+        (fromCamera, targetCamera) = (targetCamera, fromCamera);
+        triggered = false;
     }
 }

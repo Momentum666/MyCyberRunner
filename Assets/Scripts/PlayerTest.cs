@@ -1,7 +1,5 @@
 using DialogueEditor;
 using UnityEngine;
-using UnityEngine.UIElements;
-using UnityEngine.XR;
 
 public class PlayerTest : MonoBehaviour
 {
@@ -14,16 +12,17 @@ public class PlayerTest : MonoBehaviour
     [SerializeField] private float accelityFrame;
     [SerializeField] private float jumpforce;
     [SerializeField] private float movespeed;
+    [SerializeField] private float fallMaxSpeed;
     public int jumpAbility;
-    [SerializeField] private int jumpCount;
+    [SerializeField] public int jumpCount;
     private bool facingRight = true;
     private int facingDir = 1;
     [Header("Dash info")]
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashDuration;
-    [SerializeField] private float dashTime;
+    [SerializeField] private float dashTime=-1f;
     public int dashAbility;
-    [SerializeField] private int dashCount;
+    [SerializeField] public int dashCount;
     private MovingPlatform currentPlatform;
     [Header("Collision info")]
     [SerializeField] private float groundCheckDistance;
@@ -44,7 +43,7 @@ public class PlayerTest : MonoBehaviour
     {
         if (ConversationManager.Instance.IsConversationActive)
         {
-            rb.linearVelocity = new Vector2(0, 0);
+            rb.linearVelocityX = 0;
             return;
         }
         Xmovement();
@@ -83,12 +82,10 @@ public class PlayerTest : MonoBehaviour
         if (isGrounded)
             dashCount = dashAbility;
         if (dashTime > 0)
-        {
-            rb.linearVelocityX = xInput * dashSpeed;
-        }
+            rb.linearVelocity = new Vector2 (facingDir * dashSpeed,0);
         else
         {
-            if (currentPlatform != null)          
+            if (currentPlatform != null)
                 totalXSpeed += currentPlatform.passingVelocity.x;
             rb.linearVelocity = new Vector2(totalXSpeed, rb.linearVelocityY);
         }
@@ -96,14 +93,23 @@ public class PlayerTest : MonoBehaviour
 
     private void Ymovement()
     {
-        bool isJumping = rb.linearVelocityY > 0;
-        if (Input.GetKeyDown(KeyCode.Space)&&jumpCount>0)
+        if (Input.GetKeyDown(KeyCode.Space)&&jumpCount>0&&isGrounded)
         {
-                rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpforce);
-                jumpCount--;
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpforce);
+            jumpCount--;
         }
-        if (Input.GetKeyUp(KeyCode.Space)&&isJumping)
-            rb.linearVelocity= new Vector2(rb.linearVelocityX, rb.linearVelocityY*0.4f);
+        else if (Input.GetKeyDown(KeyCode.Space)&&jumpCount>0&&!isGrounded&&rb.linearVelocityY>=0)
+        {
+            rb.linearVelocity= new Vector2(rb.linearVelocityX, rb.linearVelocityY+jumpforce*0.85f);
+            jumpCount--;
+        }
+        else if (Input.GetKeyDown(KeyCode.Space) && jumpCount > 0 && !isGrounded && rb.linearVelocityY < 0)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpforce);
+            jumpCount--;
+        }
+        if (rb.linearVelocityY < -fallMaxSpeed)
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, -fallMaxSpeed);
     }
 
     private void AnimatorController()
