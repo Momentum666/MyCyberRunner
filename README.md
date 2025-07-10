@@ -16,8 +16,9 @@ You can download the playable demo below and try it directly:
 
 For best experience:
 - Use arrow keys or A/D to move
-- Press SPACE to jump (double jump supported)
-- Press SHIFT in midair to dash
+- Press SPACE to jump 
+Notice:
+- Press ESC in game to exit
 
 ---
 
